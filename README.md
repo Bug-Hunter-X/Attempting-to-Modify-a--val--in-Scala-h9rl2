@@ -1,0 +1,1 @@
+This example demonstrates a common Scala error: attempting to reassign a value to a `val`.  `val` in Scala are immutable, meaning their values cannot be changed after initialization. The provided solution shows how to correctly handle such scenarios using `var` (mutable variable) if necessary. Note that favoring immutability is a best practice in functional programming.
